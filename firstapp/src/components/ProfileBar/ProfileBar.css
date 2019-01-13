@@ -1,0 +1,25 @@
+:local(.root){
+    display: flex;
+    margin: 1em;
+    align-items: center;
+}
+
+:local(.avatar){
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
+:local(.username){
+    color: #666;
+}
+
+:local(.button){
+    background-color: #2D84CC;
+    color: #FFFFFF;;
+    border: 1px solid #1F6FB1;
+    border-radius: 5px;
+    margin: 0 1em;
+    padding: 0.5em 0.75em
+;
+}

@@ -1,0 +1,48 @@
+:local(.root){
+    background-color: #FFFFFF;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    margin: 0.5em;
+    padding: 1em;
+}
+
+:local(.text){
+    font-size: 16pt;
+    font-weight: 200;
+}
+
+:local(.user){
+    display: flex;
+    align-items: center;
+}
+
+:local(.avatar){
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+:local(.displayName){
+    font-weight: bold;
+    padding: 0.5em;
+}
+
+:local(.username){
+    color: #AAAAAA;
+}
+
+:local(.date){
+    color: #AAAAAA;
+    padding: 0.5em;
+    font-size: 8pt;
+}
+
+:local(.buttons){
+    display: flex;
+    justify-content: flex-start;
+    color: #AAAAAA;
+}
+
+:local(.icon){
+    margin-right: 3em;
+}
